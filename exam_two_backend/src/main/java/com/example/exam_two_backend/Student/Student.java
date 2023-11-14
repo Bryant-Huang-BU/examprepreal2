@@ -10,11 +10,15 @@ public class Student {
 
     public static final String TABLE_NAME = "STUDENT";
 
-    public Student(String name, String email, String dept, int grade) {
+    public Student(String name, String email, String dept, String grade) {
         this.name = name;
         this.email = email;
         this.dept = dept;
         this.grade = grade;
+    }
+
+    public Student() {
+
     }
 
     public Long getId() {
@@ -49,11 +53,11 @@ public class Student {
         this.dept = dept;
     }
 
-    public int getGrade() {
+    public String getGrade() {
         return grade;
     }
 
-    public void setGrade(int grade) {
+    public void setGrade(String grade) {
         this.grade = grade;
     }
 
@@ -76,5 +80,5 @@ public class Student {
     String dept;
 
     @Column(name = "GRADE")
-    int grade;
+    String grade;
 }

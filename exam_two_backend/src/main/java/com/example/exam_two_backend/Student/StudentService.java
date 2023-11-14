@@ -11,24 +11,25 @@ public class StudentService {
     @Autowired
     public StudentRepository SR;
 
-    @GetMapping("/students")
-    @CrossOrigin(origins = {"http://localhost:3000"})
-    public List<Student> students () {
-        return SR.findAll();
+    public List<Student> findstudents () {
+        List<Student> results = SR.findAll();
+
+        for (Student s : results) {
+            System.out.println(s.getName());
+        }
+
+        return results;
     }
 
-    @PostMapping("/add_student")
-    @CrossOrigin(origins = {"http://localhost:3000"})
-    public Student add_student (@RequestBody String name, @RequestBody String email, @RequestBody String dept, @RequestBody int grade) {
-        Student m = new Student(name, email, dept, grade);
-        return SR.save(m);
+    public Student add_student (Student student) {
+        System.out.println(student.getGrade());
+        return SR.save(student);
     }
 
-    @DeleteMapping("/delete_student/{id}")
-    @CrossOrigin(origins = {"http://localhost:3000"})
-    public void delete_student (@PathVariable Long id) {
+    public void delete_student (Long id) {
         SR.deleteById(id);
     }
+
 }
 //name, email, dept, and grade
 /*

@@ -1,0 +1,420 @@
+:root{
+    --primary: #051622;
+    --secondary: #1BA098;
+    --tertiary: #DEB992;;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(50,50,50,.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    height: 100%;
+    max-height:600px ;
+    width: 100%;
+    max-width: 540px;
+    background-color: var(--primary);
+
+    border-color: black;
+    border-radius: 20px;
+    border-width: 100px;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--secondary) ;
+    border-radius: 5px;
+}
+
+/*classes.js*/
+.containerStyle1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+    display: block;
+    justifyContent: center;
+}
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;
+}
+
+.ulStyle {
+    listStyleType: none;
+    color: #333;
+    fontSize: 18px;
+    paddingLeft: 20px;
+}
+
+.liStyle {
+    marginBottom: 10px;
+    paddingRight: 25px;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+.buttonStyle {
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+}
+
+
+.removeStyle {
+    backgroundColor: red;
+    color: white;
+}
+
+/*edit profile*/
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+    backgroundColor: rgb(108, 108, 108);
+}
+
+.buttonStyle {
+    transform: translate(12%, 0%);
+    position: relative;
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 2px;
+    borderRadius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 500px;
+}
+.pStyle {
+    marginBottom: 30px;
+    marginTop: 30px;
+    fontSize: 15px;
+    fonFamily: Times;
+}
+
+.popupStyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backgroundColor: rgba(0,0,0,0.2)
+;
+}
+
+/*home page*/
+.h1Style {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Times, serif;
+    font-weight: bold;
+}
+
+.pfpStyle {
+    position: center;
+    cursor: pointer;
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.iconBtnStyle {
+    position: center;
+    cursor: pointer;
+}
+
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px grey;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyle {
+    margin: 10px;
+    position: relative;
+    padding: 10px 82px;
+    background-color: var(--secondary);
+    border-width: 0px;
+    border-radius: 5px;
+    color: var(--tertiary);
+    cursor: pointer;
+    width: 500px;
+}
+
+/*index.js
+containerStyle1
+*/
+
+.pStyle {
+    textAlign: center;
+    marginBottom: 0px;
+    marginTop: 2px;
+    fontSize: 15px;
+    fonFamily: Times;
+}
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;
+}
+
+ .inputStyle {
+     padding: 12px 20px;
+    margin: 5px 0px;
+ }
+
+.buttonStyle {
+//transform: translate(12%, 0%);
+    position: relative;
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 500px;
+}
+
+/*login.js*/
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+}
+
+/*.pStyle {*/
+/*    marginBottom: 0px;*/
+/*    marginTop: 2px;*/
+/*    fontSize: 15px;*/
+/*    fonFamily: Times*/
+/*}*/
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+.buttonStyle {
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+}
+
+/*signup.js
+containerStyle1
+*/
+
+/*.pStyle {*/
+/*    marginBottom: 0px;*/
+/*    marginTop: 2px;*/
+/*    fontSize: 15px;*/
+/*    fonFamily: Times*/
+/*}*/
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+.buttonStyle {
+transform: translate(12%, 0%);
+    position: relative;
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 500px;
+}
+
+/*student_signup*/
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+}
+
+/*.pStyle {*/
+/*    marginBottom: 0px;*/
+/*    marginTop: 2px;*/
+/*    fontSize: 15px;*/
+/*    fonFamily: Times*/
+/*}*/
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+.buttonStyle {
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+}
+
+/*study_partners*/
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+}
+
+.ulStyle {
+    listStyleType: none;
+    color: #333;
+    fontSize: 18px;
+    paddingLeft: 20px;
+}
+
+.liStyle {
+    marginBottom: 10px;
+    paddingRight: 25px;
+}
+
+.removeStyle {
+    backgroundColor: red;
+    color: white;
+}
+
+.addStyle {
+    backgroundColor: green;
+    color: white;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+/*tutor_signup.js*/
+.containerStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 75px;
+    transform: translate(-50%, -50%);
+    borderStyle: groove;
+    borderWidth: 5px;
+    borderRadius: 20px;
+    boxShadow: 3px 3px 20px grey;
+}
+
+/*.pStyle {*/
+/*    marginBottom: 0px;*/
+/*    marginTop: 2px;*/
+/*    fontSize: 15px;*/
+/*    fonFamily: Times*/
+/*}*/
+
+.h1Style {
+    textAlign: center;
+    marginTop: 0px;
+    marginBottom: 0px;
+    fontFamily: Times;
+    fontWeight: bold;
+}
+
+.inputStyle {
+    padding: 12px 20px;
+    margin: 5px 0px;
+}
+
+.buttonStyle {
+    padding: 10px 82px;
+    backgroundColor: #007AFF;
+    borderWidth: 0px;
+    borderRadius: 5px;
+    color: white;
+}
